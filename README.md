@@ -1,9 +1,23 @@
 # WORDPRESS-LOGIN-CHECKER
 
-WordPress Login Checker adalah alat yang berguna untuk memeriksa kevalidan kombinasi nama pengguna (username) dan kata sandi yang ada dalam daftar (list) pada platform WordPress. Alat ini dirancang khusus untuk menguji otentikasi login dengan cepat dan efisien
+WordPress Login Checker is a useful tool for checking the validity of username and password combinations in the list on the WordPress platform. This tool is specifically designed to test login authentication quickly and efficiently
 
-Validasi Massal: Alat ini dapat memproses daftar kombinasi login dalam jumlah besar secara otomatis, memeriksa keberlanjutan dan keabsahan setiap kombinasi dengan cepat.
+Bulk Validation: This tool can process large lists of login combinations automatically, checking the continuity and validity of each combination quickly.
 
-Pemantauan Status Login: Memberikan laporan atau catatan tentang kombinasi login mana yang valid dan mana yang tidak, sehingga pengguna dapat dengan mudah mengidentifikasi kombinasi yang berhasil.
+Login Status Monitoring: Provides reports or notes about which login combinations are valid and which are not, so users can easily identify successful combinations.
 
-Pemberitahuan Hasil: Memberikan laporan hasil secara jelas dan mudah dimengerti setelah proses pemeriksaan selesai, dengan mencatat kombinasi login yang valid.
+Result Notification: Provides a clear and easy to understand results report after the inspection process is complete, by recording a valid login combination.
+
+## Requirements
+- Python3.+
+## Get start with
+```
+$ git clone https://github.com/SundaneseXploiter/WORDPRESS-LOGIN-CHECKER.git
+$ cd WORDPRESS-LOGIN-CHECKER
+$ pip/pip3 install -r requirements.txt
+$ python/python3 wp-sxr.py
+```
+## Author
+- SUSUDOSU
+
+
